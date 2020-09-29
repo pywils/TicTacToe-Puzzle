@@ -1,22 +1,23 @@
-## TicTacToe Puzzle:
+# TicTacToe Puzzle from FiveThirtyEight's Puzzler
 
 # Question:
 A local cafe has board games on a shelf, designed to keep kids (and some adults) entertained while they wait on their food. One of the games is a tic-tac-toe board, which comes with nine pieces that you and your opponent can place: five Xs and four Os.
 When I took my two-year-old with me, he wasn’t particularly interested in the game itself, but rather in the placement of the pieces.
 If he randomly places all nine pieces in the nine slots on the tic-tac-toe board (with one piece in each slot), what’s the probability that X wins? That is, what’s the probability that there will be at least one occurrence of three Xs in a row at the same time there are no occurrences of three Os in a row?
 
-You can use the [editor on GitHub](https://github.com/pywils/peterwilson/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
 # Answer: 
-I 
-
 Let’s take a look at how many winners there are for Xs, how many winners there are for Os, how many tie games there are, and how many times both Xs and Os win.
 
 If we randomly assorted five Xs and four Os on a tic-tac-toe board, there would be 126 different possible outcomes.
 
-##                        Only Xs win   Only 0s win   Cats games Both Xs and 0s win
-## number of scenarios     62.00        12.0          16.00              36.00
-## probability of winning   0.49         0.1          0.13               0.29
+|                        | Only Xs win   | Only Os win  |   Cats games  | Both Xs and Os win  |
+| ---------------------- | ------------- | -------------| ------------- | ------------------- |
+| Number of scenarios    |      62       |      12      |       16      |           36        |
+| Probability of winning |      0.49     |      0.1     |       0.13    |           0.29      |
+
+                       Only Xs win   Only 0s win   Cats games          Both Xs and 0s win
+ number of scenarios     62.00        12.0          16.00              36.00
+ probability of winning   0.49         0.1          0.13               0.29
 
 Now then, let’s visualize the different scenarios. First, let’s look at all the cases in which the “X” player wins and the “O” player does not.
 ```
