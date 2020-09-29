@@ -1,4 +1,4 @@
-# TicTacToe Puzzle from FiveThirtyEight's Puzzler
+# TicTacToe Puzzle from FiveThirtyEight
 
 # Question:
 A local cafe has board games on a shelf, designed to keep kids (and some adults) entertained while they wait on their food. One of the games is a tic-tac-toe board, which comes with nine pieces that you and your opponent can place: five Xs and four Os.
