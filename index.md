@@ -15,9 +15,7 @@ If we randomly assorted five Xs and four Os on a tic-tac-toe board, there would 
 | Number of scenarios    |      62       |      12      |       16      |           36        |
 | Probability of winning |      0.49     |      0.1     |       0.13    |           0.29      |
 
-                       Only Xs win   Only 0s win   Cats games          Both Xs and 0s win
- number of scenarios     62.00        12.0          16.00              36.00
- probability of winning   0.49         0.1          0.13               0.29
+ 
 
 Now then, let’s visualize the different scenarios. First, let’s look at all the cases in which the “X” player wins and the “O” player does not.
 ```
