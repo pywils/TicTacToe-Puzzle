@@ -1,11 +1,12 @@
+
 # TicTacToe Puzzle from FiveThirtyEight
 
-# Question:
+## Question:
 A local cafe has board games on a shelf, designed to keep kids (and some adults) entertained while they wait on their food. One of the games is a tic-tac-toe board, which comes with nine pieces that you and your opponent can place: five Xs and four Os.
 When I took my two-year-old with me, he wasn’t particularly interested in the game itself, but rather in the placement of the pieces.
 If he randomly places all nine pieces in the nine slots on the tic-tac-toe board (with one piece in each slot), what’s the probability that X wins? That is, what’s the probability that there will be at least one occurrence of three Xs in a row at the same time there are no occurrences of three Os in a row?
 
-# Answer: 
+## Answer: 
 Let’s take a look at how many winners there are for Xs, how many winners there are for Os, how many tie games there are, and how many times both Xs and Os win.
 
 If we randomly assorted five Xs and four Os on a tic-tac-toe board, there would be 126 different possible outcomes.
