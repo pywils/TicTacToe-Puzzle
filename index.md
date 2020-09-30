@@ -1,7 +1,3 @@
-[#nba-tanking]
-(#tictactoe-puzzle)
-
-(#tictactoe-puzzle)
 # TicTacToe Puzzle from FiveThirtyEight
 
 ## Question:
